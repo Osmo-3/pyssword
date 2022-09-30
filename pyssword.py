@@ -12,7 +12,7 @@ import time
 print(Fore.BLUE+"""          ___/---CREATED BY Osmo-3---\___    """)
 wordlist = "abcdefghijklnopqrstuvwxyz123456789@#$*-"
 while True:
-    q = int(input("enter password len:"))
+    q = int(input("enter password length:"))
     if q >= 1:
         break
     print("you have to enter a number above 0")
